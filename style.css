@@ -2,31 +2,30 @@ body{
 margin: 0;
 padding: 0;
 background-color: #1f2937;
+
+}
+
     
-}
-.logo{
-    font-size: 24px #F9FAF8;
-    font-weight: bold;
-
-
-}
 .header{
     background-color: #1f2937;
     color: white;
+    font-size: 24PX;
+    font-weight: BOLD;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-BETWEEN;
     align-items: center;
-    margin-bottom: 100PX;
+    margin-bottom: 50PX;
+    margin-right: 100PX;
+    margin-left: 100PX;
+    
+    
     
     
 
 }
-img{
 
-    
-    
 
-}
+
 
 
 
@@ -35,6 +34,10 @@ ul{
    display: flex;
    list-style-type: none;
    gap: 10px;
+   font-size: 16PX;
+   font-weight: normal;
+   
+   
    
 }
 
@@ -48,14 +51,90 @@ a{
 .container1{
     background-color: #1f2937;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
+ 
+
+}
+
+.hola{
     
+    height:200px;
+    max-width: 400px;
     
 }
+
+.subtitle{
+
+    background: white;
+    text-align: center;
+}
+
+.container2{
+
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    gap: 32px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.container3{
+
+    
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    
+    color: #1F2937;
+  
+}
+.text2{
+    font-style: italic;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+
+   
+}
+
+.text3{
+
+    align-self:flex-end;
+    margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+
+.animals{
+    
+    border-radius: 10px;
+    width: 75%;
+    height: 75%;
+   
+}
+.info{
+
+    max-width: 200px;
+  }
+  
+
+.text{
+    text-align: center;
+    gap: 10px;
+
+}
+
 h2,.text1{
 
     color: white;
@@ -67,8 +146,27 @@ h2{
 }
 .text1{
     width: 300px;
-    
+    margin: 0;
 
+
+}
+
+.subtitle{
+    font-size: 24px;
+    font-weight: bold;
+   
+    padding: 24px;
+
+
+}
+
+
+.text7{
+
+    font-size: 48px;
+    COLOR: #F9FAF8;
+    font-weight: bold;
+    margin:0;
 
 }
 button{
@@ -80,4 +178,49 @@ button{
     width: 80px;
     height: 25px;
     border: none;
+    margin-top: 10px;
+}
+
+.container4{
+
+    background-color: white;
+    padding: 100px;
+    display: flex;justify-content: center;
+    
+}
+
+.cont4{
+
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+    height: 6em;
+    width: 40em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text4{
+
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.text5{
+
+    color: white;
+}
+
+.lastbutton{
+
+   border:2px solid white;
+   align-self: center;
+}
+
+.footer{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
