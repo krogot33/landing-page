@@ -15,27 +15,26 @@ background-color: #1f2937;
     justify-content: space-BETWEEN;
     align-items: center;
     margin-bottom: 50PX;
-    margin-right: 100PX;
-    margin-left: 100PX;
-    
-    
-    
-    
+    margin-right: 50PX;
+    margin-left: 50PX;
+}
+
+.WS{
+
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+
 
 }
 
-
-
-
-
-
 ul{
 
-   display: flex;
-   list-style-type: none;
-   gap: 10px;
-   font-size: 16PX;
+   list-style-type: square;
+  
    font-weight: normal;
+   text-align: justify;
+   font-size: 20px;
    
    
    
@@ -53,17 +52,18 @@ a{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 50px;
+    height: 70vh;
  
 
 }
 
-.hola{
+.expertos{
     
-    height:200px;
-    max-width: 400px;
+    height:50vh;
+    
     
 }
 
@@ -71,16 +71,25 @@ a{
 
     background: white;
     text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 
 .container2{
 
     background-color: white;
     display:flex;
-    justify-content: center;
-    gap: 32px;
-    text-align: center;
-    padding-bottom: 50px;
+    justify-content:space-evenly;
+    text-align: justify;
+
+    
+   
+
+    height: 70vh;
+   
+
+    
     
 }
 
@@ -116,22 +125,57 @@ a{
 }
 
 
-.animals{
+.servicios{
     
-    border-radius: 10px;
-    width: 75%;
-    height: 75%;
+    
+  
+    height: 30%;
+   
+    border-color: #1f2937;
+    
+    
+    
+
+   
+    
    
 }
 .info{
 
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-style:solid;
+    border-color: #1f2937;
+    font-size: 30px;
+    font-weight: bold;
+    flex-basis: 0;
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+   
+    
+   
+    
+  
+
+    
+    
   }
+
+  
+ 
+  
+  
   
 
 .text{
-    text-align: center;
+    text-align: justify;
     gap: 10px;
+    font-size: 20px;
+    font-weight:normal;
+    height: fit-content;
+    
+
 
 }
 
@@ -151,14 +195,7 @@ h2{
 
 }
 
-.subtitle{
-    font-size: 24px;
-    font-weight: bold;
-   
-    padding: 24px;
 
-
-}
 
 
 .text7{
