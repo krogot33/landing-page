@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 background-color: #1f2937;
 
+
 }
 
     
@@ -12,18 +13,38 @@ background-color: #1f2937;
     font-size: 24PX;
     font-weight: BOLD;
     display:flex;
-    justify-content: space-BETWEEN;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 50PX;
     margin-right: 50PX;
     margin-left: 50PX;
 }
 
-.WS{
+.WS1{
 
     display:flex;
     align-items: center;
     justify-content:flex-end;
+
+
+}
+
+.WS2{
+
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    font-weight: normal;
+
+
+}
+
+.LN{
+
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    font-weight: normal;
 
 
 }
@@ -127,17 +148,9 @@ a{
 
 .servicios{
     
-    
-  
     height: 30%;
-   
     border-color: #1f2937;
-    
-    
-    
-
-   
-    
+     
    
 }
 .info{
@@ -146,36 +159,22 @@ a{
     flex-direction: column;
     border-style:solid;
     border-color: #1f2937;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     flex-basis: 0;
     text-align: center;
     background-color: #1F2937;
     color: #F9FAF8;
-   
-    
-   
-    
-  
-
-    
-    
+     
   }
 
   
- 
-  
-  
-  
-
 .text{
     text-align: justify;
     gap: 10px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight:normal;
     height: fit-content;
-    
-
 
 }
 
@@ -189,14 +188,11 @@ h2{
     width: 200px;
 }
 .text1{
-    width: 300px;
+    width: 800px;
     margin: 0;
 
 
 }
-
-
-
 
 .text7{
 
@@ -221,19 +217,32 @@ button{
 .container4{
 
     background-color: white;
-    padding: 100px;
-    display: flex;justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.redes{
+
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+    
     
 }
 
 .cont4{
 
-    background-color: #3882F6;
+    
     display: flex;
     border-radius: 10px;
-    height: 6em;
+    height: 20em;
     width: 40em;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -260,4 +269,43 @@ button{
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+/* Estilos básicos para el formulario */
+#contactoForm {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+#contactoForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contactoForm input,
+#contactoForm textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+#contactoForm button {
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+#contactoForm button:hover {
+    background-color: #45a049;
 }

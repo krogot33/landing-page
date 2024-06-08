@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfcHfQpAAAAAJCVnjU3yeKCTXc16YlW9VGKAibc"></script>
+
 </head>
 <body>
     <div class="header">
     <div class="Logo">Zuanic Consultores</div>
     
-        <a class="WS" href="https://wa.me/+56944014499" target="_blank">
+        <a class="WS1" href="https://wa.me/+56944014499" target="_blank">
             <img src=./images/ws.png alt="Contáctanos por WhatsApp" width="40vh" height="40vh">
             <p>Haz click en el logo para contactarnos</p>
           </a>
@@ -21,7 +23,7 @@
     <div class="container1">
         <div class="subcontainer1">
         <p class="text7">Desata el poder de los insights basados en datos con nuestros servicios expertos</p>
-        <p class="text1">This website has some subtext that goes here under the main title. It's a Smaller font and the color is lower constrast</p>
+        <p class="text1">Somos profesionales dedicados al mundo de los datos operacionales y financieros, en el análisis y toma de decisión de formulación de proyectos, y de la exitosa postulación a licitaciones tanto publicas como privadas </p>
         <button>Sing up</button> </div>
 
         <img class="expertos" src="./images/expertos.jpg" alt="this is a placeholder for an image" > 
@@ -108,12 +110,41 @@
     </div>
 
     <div class="container4">
+        <div class="redes"> Nuestras Redes
+            
+            <a class="WS2" href="https://wa.me/+56944014499" target="_blank">
+                <img src=./images/ws.png alt="Contáctanos por WhatsApp" width="40vh" height="40vh">
+                <p style="color: black;">+569xxxxxxxx</p>
+              </a>
+              <a class="LN" href="https://cl.linkedin.com/" target="_blank">
+                <img src=./images/ln.png alt="Linkedin" width="40vh" height="40vh">
+                <p style="color: black;">cl.linkedin.com/</p>
+              </a>
+
+
+            
+        </div>
         <div class="cont4">
         <div class="subcontainer4">
-        <p class="text4"> Call to action! Is'time!</p>
-        <p class="text5"> Lorem ipsum dolor sit, amet consectetur adipisici</p></div>
-        <button class="lastbutton">Sing up</button></div>
-    </div>
+            <h1>¡Contáctanos!</h1>
+
+            <form action="enviar.php" method="post" id="contactoForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa">
+        
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" rows="5" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        
+            <script src="script.js"></script>
+    </div></div></div>
+
+  
 
     <div class="footer">
         <p class="text6"> Copyright © Zuanic Consultores</p>
