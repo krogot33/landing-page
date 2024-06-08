@@ -18,6 +18,32 @@ background-color: #1f2937;
     margin-bottom: 50PX;
     margin-right: 50PX;
     margin-left: 50PX;
+
+    
+    @media (max-width: 480px) {
+        
+          font-size: 12px;
+          margin: 5px;
+         
+        
+      }
+
+    @media (max-width: 768px) {
+       
+          font-size: 14px;
+          margin: 5x;
+        
+      }
+
+   
+      
+      /* Styles for screens wider than 1024px (large desktops) */
+      @media (min-width: 1024px) {
+      
+          font-size: 18px;
+          margin: 10px;
+        
+    }
 }
 
 .WS1{

@@ -27,7 +27,7 @@ if (mail($toEmail, $subject, $body, $headers)) {
 }
 
 $recaptchaToken = $_POST['g-recaptcha-token'];
-$secretKey = '6LfcHfQpAAAAACTTS4vFvyOXL2Ckkgqrq25_tBhL'; // Replace with your secret key
+$secretKey = 'XXXXXXXXXXXXXXX'; // Replace with your secret key
 
 $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $recaptchaToken);
 $responseData = json_decode($response, true);
