@@ -9,11 +9,13 @@ $subject = "Contacto desde sitio web";
 // Get the form data
 $name = $_POST['nombre'];
 $company = $_POST['empresa'];
+$email = $_POST['email'];
 $message = $_POST['consulta'];
 
 // Prepare the email body
 $body = "Nombre: $name\n" .
          "Empresa: $company\n" .
+         "Email o celular: $email\n" .
          "Consulta:\n$message";
 
 // Set headers
