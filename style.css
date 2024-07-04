@@ -79,11 +79,19 @@ background-color: #1f2937;
 
 .WS1{
 
+<<<<<<< HEAD
   display:flex;
   align-items: center;
   justify-content:flex-end;
   font-size:20px;
   
+=======
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    font-size:20px;
+    
+>>>>>>> e6f393e9c730fbd6419b22fdb435ab2528626e59
 
 
 }
