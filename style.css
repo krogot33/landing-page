@@ -10,7 +10,7 @@ background-color: #1f2937;
 .header{
     background-color: #1f2937;
     color: white;
-    font-size: 40PX;
+    font-size: 50PX;
     font-weight: BOLD;
     display:flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ background-color: #1f2937;
 
     @media (max-width: 768px) {
        
-          
+          font-size: 25px;
         img{
             width: 3vh;
             height: 3vh;
@@ -60,28 +60,30 @@ background-color: #1f2937;
         }
         
           
-          margin: 5px;
-         
-        
-      }
+        margin: 5px;
 
-   
+       
       
-      /* Styles for screens wider than 1024px (large desktops) */
-      @media (min-width: 1024px) {
-      
-          
-          margin: 10px;
-        
     }
+
+ 
+    
+    /* Styles for screens wider than 1024px (large desktops) */
+    @media (min-width: 1024px) {
+    
+        
+        margin: 10px;
+      
+  }
 }
 
 .WS1{
 
-    display:flex;
-    align-items: center;
-    justify-content:flex-end;
-    
+  display:flex;
+  align-items: center;
+  justify-content:flex-end;
+  font-size:20px;
+  
 
 
 }
@@ -103,21 +105,14 @@ background-color: #1f2937;
     align-items: center;
     justify-content:flex-end;
     font-weight: normal;
-
-
-}
-
-ul{
-
-   list-style-type: square;
+    
   
-   font-weight: normal;
-   text-align: justify;
-   font-size: 20px;
-   
-   
-   
+    
+
+
 }
+
+
 
 a{
     text-decoration: none; 
@@ -214,6 +209,8 @@ a{
 .expertos{
     
     height: 400px;
+    object-fit: contain;
+      
     @media (max-width: 480px) {
         width: 100%;
         height: auto;
@@ -247,7 +244,7 @@ a{
     background: white;
     text-align: center;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 60px;
     padding-bottom: 10px;
 
     @media (max-width: 480px) {
@@ -270,17 +267,59 @@ a{
     /* Styles for screens wider than 1024px (large desktops) */
     @media (min-width: 1024px) {
     
-        font-size: 30px;
+        font-size: 40px;
     
       
   }
+}
+
+.subtitle2{
+
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+
+
+    @media (max-width: 480px) {
+        
+        font-size: 15x;
+       
+       
+      
+    }
+
+  @media (max-width: 768px) {
+     
+        font-size: 15px;
+       
+      
+    }
+
+ 
+    
+    /* Styles for screens wider than 1024px (large desktops) */
+    @media (min-width: 1024px) {
+    
+        font-size: 20px;
+    
+      
+  }
+
 }
 
 .container2{
 
     background-color: white;
     display:flex;
-    justify-content:space-evenly;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content:center;
     text-align: justify;
     width: 100%;
         height: auto;
@@ -301,33 +340,24 @@ a{
        
     }
 
-  @media (max-width: 768px) {
-     
-        
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
     
-    margin: 5px;
-      
-    }
+    color: #1F2937;
+  
+}
 
- 
+.text:first-line{
     
-    /* Styles for screens wider than 1024px (large desktops) */
-    @media (min-width: 1024px) {
     
-        
-        
-      
-  }
+    font-weight:bold;
+    text-decoration:underline;
+     /* Styles for screens wider than 1024px (large desktops) */
  
+
+    
    
 
-    
-    
 }
+
 
 .container3{
 
@@ -343,6 +373,49 @@ a{
     color: #1F2937;
   
 }
+
+
+.text{
+    padding-top: 18x;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    @media (min-width: 1024px) {
+    
+        font-size: 30px;
+    
+      
+  }
+
+}
+
+.subtext{
+    text-align: justify;
+    font-size: 18px;
+    font-weight:normal;
+    height: fit-content;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+    @media (min-width: 1024px) {
+    
+        font-size: 30px;
+    
+      
+  }
+}
+
+ul{
+    list-style-type: square;
+    font-weight: normal;
+    text-align: justify;
+ }
+
+
+li{
+    padding-right: 10px;
+}
+
 .text2{
     font-style: italic;
   margin-left: 100px;
@@ -363,10 +436,12 @@ a{
 
 .servicios{
     
-    width: 90%;
-    height:25%;
-    object-fit: cover;
+    
+    width: 50%;
+   
+    object-fit: contain;
     border-color: #1f2937;
+   
 
     @media (max-width: 480px) {
         
@@ -391,7 +466,7 @@ a{
     @media (min-width: 1024px) {
     
         
-        margin: 10px;
+        margin: 5px;
       
   }
      
@@ -400,40 +475,35 @@ a{
 .info{
 
   
-    flex-direction: column;
+  display:flex;
+  
+  
+  justify-content:space-between;
    
     font-size:large;
     font-weight: bold;
-    flex-basis:auto;
+    
     width: 100%;
     text-align: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    flex-wrap: wrap;
+
+
+    @media (max-width: 768px) {
+       flex-direction: column;
+    
+  
+    
+      
+  }
+    
    
      
   }
 
   
-.text{
-    text-align: justify;
-   
-    font-size: medium;
-    font-weight:normal;
-    height: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-
-}
-
-li{
 
 
-    font-size: medium;
-    
-    padding-right: 10px;
-}
 
 h2,.text1{
 
@@ -455,6 +525,16 @@ h2{
     height: auto;
     object-fit: contain;
     text-align: justify;
+
+    /* Styles for screens wider than 1024px (large desktops) */
+    @media (min-width: 1024px) {
+    
+        font-size: 24px;
+        padding-right: 10px;
+      
+  }
+
+    
 
 
 }
@@ -488,7 +568,7 @@ h2{
     /* Styles for screens wider than 1024px (large desktops) */
     @media (min-width: 1024px) {
     
-        font-size: 30px;
+        font-size: 36px;
         margin: 10px;
       
   }
@@ -565,6 +645,7 @@ button{
     align-items: flex-start;
     font-size: 30px;
     font-weight: bold;
+    width: 50%;
     
     
 }
@@ -653,7 +734,7 @@ button{
     height: auto;
     object-fit: contain;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px;
     border: 1px solid #ccc;
     font-weight: bold;
 }
