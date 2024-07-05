@@ -5,7 +5,10 @@ background-color: #1f2937;
 
 
 }
-
+* {
+    font-family: Arial, Helvetica;
+  }
+  
     
 .header{
     background-color: #1f2937;
@@ -344,19 +347,19 @@ a{
     color: #1F2937;
   
 }
-
+/*
 .text:first-line{
     
     
     font-weight:bold;
     text-decoration:underline;
-     /* Styles for screens wider than 1024px (large desktops) */
+    
  
 
     
    
 
-}
+}*/
 
 
 .container3{
@@ -417,10 +420,17 @@ li{
 }
 
 .text2{
-    font-style: italic;
+  font-style: italic;
   margin-left: 100px;
   margin-right: 100px;
   text-align: justify;
+  font-size: 30px;
+
+  @media (min-width: 1024px) {
+       
+       
+      
+  }
 
    
 }
@@ -429,7 +439,8 @@ li{
 
     align-self:flex-end;
     margin-left: 100px;
-  margin-right: 100px;
+    margin-right: 100px;
+    font-size: 30px;
   
 }
 
